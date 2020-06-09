@@ -2,6 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <base href="./" />
+        <title>HAXdesktop</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
         <link rel="preconnect" href="https://i.creativecommons.org" />
@@ -13,14 +17,19 @@
         <link rel="modulepreload" href="app/unbundled-webcomponents/app/dist/build/es6/node_modules/@lrnwebcomponents/wc-autoload/wc-autoload.js" />
         <link rel="preload" href="app/unbundled-webcomponents/app/dist/build/es6/node_modules/@lrnwebcomponents/dynamic-import-registry/dynamic-import-registry.js" as="script" crossorigin="anonymous" />
         <link rel="modulepreload" href="app/unbundled-webcomponents/app/dist/build/es6/node_modules/@lrnwebcomponents/dynamic-import-registry/dynamic-import-registry.js" />
-        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-        <title>HAXdesktop</title>
+
         <script>window.__appCDN = "app/unbundled-webcomponents/app/dist/";</script>
         <script src="app/unbundled-webcomponents/app/dist/build.js"></script>
+        <style>
+            body {
+                margin: 48px;
+            }
+        </style>
     </head>
     <body>
-        <h-a-x>
+        <h-a-x element-align="right">
             <h1>Welcome to HAX</h1>
+            <p>Welcome to HAX</p>
         </h-a-x>
     </body>
 </html>
