@@ -1,0 +1,1 @@
+define(["../node_modules/@lrnwebcomponents/h-a-x/h-a-x.js"],function(_hAX){"use strict"});
