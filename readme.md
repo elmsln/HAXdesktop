@@ -1,0 +1,2 @@
+## electron-forge
+This Electron project uses [electron-forge](https://www.electronforge.io/) for building distributions. Run `npm run make` to build a distribution of the application based on your platform(Windows, MacOS, Linux). The application is located in the "out" folder after running the command.
