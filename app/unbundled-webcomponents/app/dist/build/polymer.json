@@ -1,5 +1,5 @@
 {
-  "entrypoint": "src/index.html",
+  "entrypoint": "src\\index.html",
   "fragments": [],
   "sources": [
     "src/index.html"
