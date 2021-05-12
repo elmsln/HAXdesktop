@@ -28,7 +28,8 @@
     "electron": "^9.0.3"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "node-powershell": "^4.0.0"
   },
   "config": {
     "forge": {
